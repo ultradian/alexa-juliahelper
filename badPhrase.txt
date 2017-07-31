@@ -4,3 +4,7 @@ how do I get the sum of the values in a vector -> sumabs instead of sum
 how to return the first element of a vector
 element gets a crazy ID
 checkSlot noun ID "6a7f245843454cf4f28ad7c5e2572aa2" val "element"
+
+
+how to horizontally concatenate two arrays: no adverbs yet!
+
