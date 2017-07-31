@@ -1,0 +1,16 @@
+how do I calculate the mean of a collection
+how I get the mean
+how I get the mean of values in an array
+how I get the absolute value of a number
+how I get the sign of a variable
+how to concatenate two strings
+how to generate a random number
+how to test if a value is odd
+how to test if a set is empty
+how to test if a string is lowercase
+how to combine two dictionaries
+how to generate a range
+how to return the first item in a vector
+how to return the first item in a vector
+how to merge two sets
+how to combine two sets
