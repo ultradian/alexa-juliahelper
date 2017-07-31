@@ -11,6 +11,10 @@ how to test if a string is lowercase
 how to combine two dictionaries
 how to generate a range
 how to return the first item in a vector
-how to return the first item in a vector
+how to return the largest item in a vector
 how to merge two sets
 how to combine two sets
+how to reverse the characters of a string
+how to reverse a string
+how to get all the keys from a dictionary
+how to get the horizontal concatenation of two arrays
