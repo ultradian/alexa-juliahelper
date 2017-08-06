@@ -1,0 +1,1095 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.RepeatIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "QuestionIntent",
+      "samples": [
+        "how do you {verb} {noun}",
+        "how do you {verb} {determiner} {noun}",
+        "how do you {verb} {determiner} {noun} {preposition} {nounTwo}",
+        "how do you {verb} {determiner} {noun} {preposition} {determinerTwo} {nounTwo}",
+        "how does one {verb} {noun}",
+        "how do I {verb} {noun}",
+        "how does one {verb} {determiner} {noun}",
+        "how does one {verb} {determiner} {noun} {preposition} {determinerTwo} {nounTwo}",
+        "how do I {verb} {determiner} {noun}",
+        "how do I {verb} {determiner} {noun} {preposition} {determinerTwo} {nounTwo}",
+        "how do you {verb} {subordConjunction} {determiner} {noun} {verbTwo} {determiner} {nounTwo}",
+        "how do you {verb} {subordConjunction} {noun} {verbTwo} {determiner} {nounTwo}",
+        "how do I {verb} {subordConjunction} {determiner} {noun} {verbTwo} {determiner} {nounTwo} ",
+        "how do I {verb} {subordConjunction}  {noun} {verbTwo} {determiner} {nounTwo} ",
+        "how does one {verb} {subordConjunction} {determiner} {noun} {verbTwo} {determiner} {nounTwo} ",
+        "how does one {verb} {subordConjunction} {noun} {verbTwo} {determiner} {nounTwo} ",
+        "how to {verb} {noun}",
+        "how to {verb} {determiner} {noun}",
+        "how to {verb} {determiner} {adjective} {noun}",
+        "how to {verb} {determiner} {noun} {preposition} {determinerTwo} {nounTwo}",
+        "how to {verb} {subordConjunction}  {determiner} {noun} {verbTwo} {determinerTwo} {nounTwo}",
+        "how to {verb} {determiner} {adjective} {noun} {preposition} {determinerTwo} {nounTwo}",
+        "how you {verb} {determiner} {adjective} {noun} {preposition} {determinerTwo} {nounTwo}",
+        "how to {verb} {subordConjunction}  {noun} {verbTwo} {determinerTwo} {nounTwo}",
+        "how to {verb} {subordConjunction}  {noun} {verbTwo} {preposition} {determinerTwo} {nounTwo}",
+        "how to {verb} {subordConjunction} {determiner} {noun} {verbTwo} {preposition} {determinerTwo} {nounTwo}",
+        "how I {verb} {subordConjunction}  {noun} {verbTwo} {preposition} {determinerTwo} {nounTwo}",
+        "how I {verb} {subordConjunction} {determiner} {noun} {verbTwo} {preposition} {determinerTwo} {nounTwo}",
+        "how I {verb} {determiner} {adjective} {noun} {preposition} {determinerTwo} {nounTwo}",
+        "how I {verb} {determiner} {noun} {preposition} {determinerTwo} {nounTwo}",
+        "how I {verb} {subordConjunction} {determiner} {noun} {preposition} {determinerTwo} {nounTwo} {verbTwo} {determinerThree} {nounThree}",
+        "how to {verb} {subordConjunction} {determiner} {noun} {preposition} {determinerTwo} {nounTwo} {verbTwo} {determinerThree} {nounThree}",
+        "how to {verb} {subordConjunction} {noun} {preposition} {determinerTwo} {nounTwo} {verbTwo} {determinerThree} {nounThree}",
+        "how to {verb} {subordConjunction} {noun} {preposition} {determinerTwo} {nounTwo} {verbTwo} {nounThree}",
+        "how to {verb} {subordConjunction} {determiner} {noun} {preposition} {determinerTwo} {nounTwo} {verbTwo} {nounThree}",
+        "how to {verb} {subordConjunction} {determiner} {noun} {verbTwo} {adjective}",
+        "how I {verb} {subordConjunction} {determiner} {noun} {verbTwo} {adjective}"
+      ],
+      "slots": [
+        {
+          "name": "verb",
+          "type": "VERBS",
+          "samples": []
+        },
+        {
+          "name": "determiner",
+          "type": "DETERMINERS",
+          "samples": []
+        },
+        {
+          "name": "noun",
+          "type": "NOUNS",
+          "samples": []
+        },
+        {
+          "name": "adjective",
+          "type": "ADJECTIVES",
+          "samples": []
+        },
+        {
+          "name": "subordConjunction",
+          "type": "SUBORDCONJUNCTIONS",
+          "samples": []
+        },
+        {
+          "name": "preposition",
+          "type": "PREPOSITIONS",
+          "samples": []
+        },
+        {
+          "name": "verbTwo",
+          "type": "VERBS",
+          "samples": []
+        },
+        {
+          "name": "determinerTwo",
+          "type": "DETERMINERS",
+          "samples": []
+        },
+        {
+          "name": "nounTwo",
+          "type": "NOUNS",
+          "samples": []
+        },
+        {
+          "name": "adjectiveTwo",
+          "type": "ADJECTIVES",
+          "samples": []
+        },
+        {
+          "name": "prepositionTwo",
+          "type": "PREPOSITIONS",
+          "samples": []
+        },
+        {
+          "name": "determinerThree",
+          "type": "DETERMINERS",
+          "samples": []
+        },
+        {
+          "name": "nounThree",
+          "type": "NOUNS",
+          "samples": []
+        }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "name": "ADJECTIVES",
+      "values": [
+        {
+          "id": "blank",
+          "name": {
+            "value": "blank",
+            "synonyms": [
+              "whitespace"
+            ]
+          }
+        },
+        {
+          "id": "complex",
+          "name": {
+            "value": "complex",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "empty",
+          "name": {
+            "value": "empty",
+            "synonyms": [
+              "null"
+            ]
+          }
+        },
+        {
+          "id": "even",
+          "name": {
+            "value": "even",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "first",
+          "name": {
+            "value": "first",
+            "synonyms": [
+              "beginning",
+              "starting",
+              "initial"
+            ]
+          }
+        },
+        {
+          "id": "greater",
+          "name": {
+            "value": "greater than",
+            "synonyms": [
+              "greater"
+            ]
+          }
+        },
+        {
+          "id": "h",
+          "name": {
+            "value": "horizontal",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "last",
+          "name": {
+            "value": "last",
+            "synonyms": [
+              "ending",
+              "final"
+            ]
+          }
+        },
+        {
+          "id": "less",
+          "name": {
+            "value": "less than",
+            "synonyms": [
+              "lesser"
+            ]
+          }
+        },
+        {
+          "id": "lower",
+          "name": {
+            "value": "lowercase",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "numeric",
+          "name": {
+            "value": "numeric",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "odd",
+          "name": {
+            "value": "odd",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "upper",
+          "name": {
+            "value": "uppercase",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "v",
+          "name": {
+            "value": "vertical",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "min",
+          "name": {
+            "value": "min",
+            "synonyms": [
+              "smallest",
+              "minimum",
+              "least"
+            ]
+          }
+        },
+        {
+          "id": "max",
+          "name": {
+            "value": "max",
+            "synonyms": [
+              "largest",
+              "maximum",
+              "greatest"
+            ]
+          }
+        },
+        {
+          "id": "dict",
+          "name": {
+            "value": "dictionary's",
+            "synonyms": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "DETERMINERS",
+      "values": [
+        {
+          "id": "a",
+          "name": {
+            "value": "a",
+            "synonyms": [
+              "an",
+              "the",
+              "one",
+              "another",
+              "some"
+            ]
+          }
+        },
+        {
+          "id": "any",
+          "name": {
+            "value": "any",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "all",
+          "name": {
+            "value": "all",
+            "synonyms": [
+              "every",
+              "each"
+            ]
+          }
+        },
+        {
+          "id": "both",
+          "name": {
+            "value": "both",
+            "synonyms": [
+              "two",
+              "a pair of"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "NOUNS",
+      "values": [
+        {
+          "id": "abs",
+          "name": {
+            "value": "absolute value",
+            "synonyms": [
+              "absolute values"
+            ]
+          }
+        },
+        {
+          "id": "arg",
+          "name": {
+            "value": "argument",
+            "synonyms": [
+              "value",
+              "parameter"
+            ]
+          }
+        },
+        {
+          "id": "ascii",
+          "name": {
+            "value": "ascii",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "array",
+          "name": {
+            "value": "array",
+            "synonyms": [
+              "vector",
+              "vectors",
+              "queue",
+              "dequeue"
+            ]
+          }
+        },
+        {
+          "id": "first",
+          "name": {
+            "value": "beginning",
+            "synonyms": [
+              "start",
+              "front",
+              "first"
+            ]
+          }
+        },
+        {
+          "id": "clamp",
+          "name": {
+            "value": "bound",
+            "synonyms": [
+              "bounds",
+              "bounded",
+              "clamp"
+            ]
+          }
+        },
+        {
+          "id": "char",
+          "name": {
+            "value": "characters",
+            "synonyms": [
+              "character",
+              "letters",
+              "letter"
+            ]
+          }
+        },
+        {
+          "id": "collection",
+          "name": {
+            "value": "collection",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "conj",
+          "name": {
+            "value": "complex conjugate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "conv",
+          "name": {
+            "value": "convolution",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "dict",
+          "name": {
+            "value": "dictionary",
+            "synonyms": [
+              "dictionaries"
+            ]
+          }
+        },
+        {
+          "id": "size",
+          "name": {
+            "value": "dimensions",
+            "synonyms": [
+              "size"
+            ]
+          }
+        },
+        {
+          "id": "unique",
+          "name": {
+            "value": "duplicates",
+            "synonyms": [
+              "unique"
+            ]
+          }
+        },
+        {
+          "id": "",
+          "name": {
+            "value": "elements",
+            "synonyms": [
+              "members"
+            ]
+          }
+        },
+        {
+          "id": "last",
+          "name": {
+            "value": "end",
+            "synonyms": [
+              "last",
+              "final"
+            ]
+          }
+        },
+        {
+          "id": "extrema",
+          "name": {
+            "value": "extrema",
+            "synonyms": [
+              "smallest and largest",
+              "largest and smallest"
+            ]
+          }
+        },
+        {
+          "id": "fft",
+          "name": {
+            "value": "f.f.t.",
+            "synonyms": [
+              "fast fourier transform",
+              "fourier transform"
+            ]
+          }
+        },
+        {
+          "id": "float",
+          "name": {
+            "value": "float",
+            "synonyms": [
+              "floats"
+            ]
+          }
+        },
+        {
+          "id": "fld",
+          "name": {
+            "value": "flooring division",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "function",
+          "name": {
+            "value": "function",
+            "synonyms": [
+              "predicate",
+              "transform",
+              "test",
+              "lambda",
+              "lambda expression",
+              "condition"
+            ]
+          }
+        },
+        {
+          "id": "imag",
+          "name": {
+            "value": "imaginary part",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "index",
+          "name": {
+            "value": "index",
+            "synonyms": [
+              "locations",
+              "positions",
+              "indicies"
+            ]
+          }
+        },
+        {
+          "id": "item",
+          "name": {
+            "value": "item",
+            "synonyms": [
+              "value",
+              "number",
+              "element",
+              "items",
+              "values",
+              "numbers",
+              "object",
+              "objects"
+            ]
+          }
+        },
+        {
+          "id": "keys",
+          "name": {
+            "value": "key",
+            "synonyms": [
+              "keys"
+            ]
+          }
+        },
+        {
+          "id": "max",
+          "name": {
+            "value": "largest",
+            "synonyms": [
+              "maximum",
+              "max"
+            ]
+          }
+        },
+        {
+          "id": "length",
+          "name": {
+            "value": "length",
+            "synonyms": [
+              "size"
+            ]
+          }
+        },
+        {
+          "id": "mean",
+          "name": {
+            "value": "mean",
+            "synonyms": [
+              "average"
+            ]
+          }
+        },
+        {
+          "id": "median",
+          "name": {
+            "value": "median",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "mod",
+          "name": {
+            "value": "modulus of flooring division",
+            "synonyms": [
+              "mod",
+              "modulus"
+            ]
+          }
+        },
+        {
+          "id": "mod2pi",
+          "name": {
+            "value": "modulus after dividing by 2 pi",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "digit",
+          "name": {
+            "value": "number",
+            "synonyms": [
+              "numbers",
+              "digit",
+              "digits",
+              "numeric value"
+            ]
+          }
+        },
+        {
+          "id": "prod",
+          "name": {
+            "value": "product",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "pow2",
+          "name": {
+            "value": "power of two",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "rand",
+          "name": {
+            "value": "random number",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "read",
+          "name": {
+            "value": "real part",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "regex",
+          "name": {
+            "value": "regex",
+            "synonyms": [
+              "regular expression"
+            ]
+          }
+        },
+        {
+          "id": "set",
+          "name": {
+            "value": "set",
+            "synonyms": [
+              "sets"
+            ]
+          }
+        },
+        {
+          "id": "sign",
+          "name": {
+            "value": "sign",
+            "synonyms": [
+              "s.i.g.n."
+            ]
+          }
+        },
+        {
+          "id": "min",
+          "name": {
+            "value": "smallest",
+            "synonyms": [
+              "minimum",
+              "min"
+            ]
+          }
+        },
+        {
+          "id": "space",
+          "name": {
+            "value": "space",
+            "synonyms": [
+              "whitespace",
+              "blank"
+            ]
+          }
+        },
+        {
+          "id": "sqrt",
+          "name": {
+            "value": "square root",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "std",
+          "name": {
+            "value": "standard deviation",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "string",
+          "name": {
+            "value": "string",
+            "synonyms": [
+              "strings",
+              "substring",
+              "substrings"
+            ]
+          }
+        },
+        {
+          "id": "subset",
+          "name": {
+            "value": "subset",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "sum",
+          "name": {
+            "value": "sum",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "sumabs",
+          "name": {
+            "value": "sum of the absolute value",
+            "synonyms": [
+              "sum of the absolute values"
+            ]
+          }
+        },
+        {
+          "id": "sumabs2",
+          "name": {
+            "value": "sum of the squares",
+            "synonyms": [
+              "sum of the squares"
+            ]
+          }
+        },
+        {
+          "id": "values",
+          "name": {
+            "value": "value",
+            "synonyms": [
+              "values"
+            ]
+          }
+        },
+        {
+          "id": "match",
+          "name": {
+            "value": "match",
+            "synonyms": [
+              "same"
+            ]
+          }
+        },
+        {
+          "id": "range",
+          "name": {
+            "value": "range",
+            "synonyms": [
+              "ranges",
+              "sequence",
+              "sequences"
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "another",
+            "synonyms": [
+              "second"
+            ]
+          }
+        },
+        {
+          "id": "cat",
+          "name": {
+            "value": "concatenation",
+            "synonyms": [
+              "merging",
+              "splicing"
+            ]
+          }
+        },
+        {
+          "id": "something",
+          "name": {
+            "value": "something",
+            "synonyms": [
+              "thing"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "PREDETERMINERS",
+      "values": [
+        {
+          "id": "all",
+          "name": {
+            "value": "all",
+            "synonyms": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "PREPOSITIONS",
+      "values": [
+        {
+          "id": "in",
+          "name": {
+            "value": "in",
+            "synonyms": [
+              "inside"
+            ]
+          }
+        },
+        {
+          "id": "of",
+          "name": {
+            "value": "of",
+            "synonyms": [
+              "belonging to",
+              "from"
+            ]
+          }
+        },
+        {
+          "id": "after",
+          "name": {
+            "value": "after",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "before",
+          "name": {
+            "value": "before",
+            "synonyms": [
+              "in front of"
+            ]
+          }
+        },
+        {
+          "id": "at",
+          "name": {
+            "value": "at",
+            "synonyms": [
+              "to"
+            ]
+          }
+        },
+        {
+          "id": "over",
+          "name": {
+            "value": "over",
+            "synonyms": [
+              "across"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "SUBORDCONJUNCTIONS",
+      "values": [
+        {
+          "id": "if",
+          "name": {
+            "value": "if",
+            "synonyms": [
+              "whether",
+              "that"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "VERBS",
+      "values": [
+        {
+          "id": "get",
+          "name": {
+            "value": "get",
+            "synonyms": [
+              "return",
+              "collect",
+              "obtain",
+              "calculate",
+              "find",
+              "perform",
+              "do"
+            ]
+          }
+        },
+        {
+          "id": "is",
+          "name": {
+            "value": "is",
+            "synonyms": [
+              "are"
+            ]
+          }
+        },
+        {
+          "id": "iterate",
+          "name": {
+            "value": "iterate",
+            "synonyms": [
+              "go through"
+            ]
+          }
+        },
+        {
+          "id": "parse",
+          "name": {
+            "value": "parse",
+            "synonyms": [
+              "parses"
+            ]
+          }
+        },
+        {
+          "id": "reverse",
+          "name": {
+            "value": "reverse",
+            "synonyms": [
+              "reverses"
+            ]
+          }
+        },
+        {
+          "id": "delete",
+          "name": {
+            "value": "remove",
+            "synonyms": [
+              "delete",
+              "subtract"
+            ]
+          }
+        },
+        {
+          "id": "specify",
+          "name": {
+            "value": "specify",
+            "synonyms": [
+              "define",
+              "delineate"
+            ]
+          }
+        },
+        {
+          "id": "test",
+          "name": {
+            "value": "test",
+            "synonyms": [
+              "check",
+              "see",
+              "evaluate",
+              "determine",
+              "verify"
+            ]
+          }
+        },
+        {
+          "id": "add",
+          "name": {
+            "value": "add",
+            "synonyms": [
+              "insert"
+            ]
+          }
+        },
+        {
+          "id": "apply",
+          "name": {
+            "value": "apply",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "combine",
+          "name": {
+            "value": "combine",
+            "synonyms": [
+              "join",
+              "merge"
+            ]
+          }
+        },
+        {
+          "id": "concatenate",
+          "name": {
+            "value": "concatenate",
+            "synonyms": [
+              "join",
+              "merge"
+            ]
+          }
+        },
+        {
+          "id": "contains",
+          "name": {
+            "value": "contains",
+            "synonyms": [
+              "has"
+            ]
+          }
+        },
+        {
+          "id": "convert",
+          "name": {
+            "value": "convert",
+            "synonyms": [
+              "change"
+            ]
+          }
+        },
+        {
+          "id": "count",
+          "name": {
+            "value": "count",
+            "synonyms": [
+              "how many"
+            ]
+          }
+        },
+        {
+          "id": "search",
+          "name": {
+            "value": "search",
+            "synonyms": []
+          }
+        },
+        {
+          "id": "generate",
+          "name": {
+            "value": "generate",
+            "synonyms": [
+              "create",
+              "make"
+            ]
+          }
+        },
+        {
+          "id": "starts",
+          "name": {
+            "value": "starts",
+            "synonyms": [
+              "begins"
+            ]
+          }
+        },
+        {
+          "id": "ends",
+          "name": {
+            "value": "ends",
+            "synonyms": [
+              "terminates",
+              "finishes"
+            ]
+          }
+        },
+        {
+          "id": "satisfies",
+          "name": {
+            "value": "satisfies",
+            "synonyms": [
+              "fulfills",
+              "meets"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
