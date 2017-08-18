@@ -18,3 +18,27 @@ how to reverse the characters of a string
 how to reverse a string
 how to get all the keys from a dictionary
 how to get the horizontal concatenation of two arrays
+how I get a square root
+how to get the square root of a number
+how to calculate the square root
+how to get the median
+how to calculate a median
+how I get the median of a set
+how to calculate the standard deviation
+how to get a random number
+how to get the convolution of two vectors
+how I return the sign of a number
+how to get the product of several numbers
+how to calculate the convolution of two vectors
+how I get a convolution 
+how I get the absolute value of the all the members of a collection 
+how to get the standard deviation
+how I get the standard deviation of a vector of numbers
+how to calculate an f.f.t.
+how I get the fourier transform of an array
+how to calculate a fast fourier transform
+
+how to calculate the product of the members of a vector
+how to get
+how to calculate
+how I get 
